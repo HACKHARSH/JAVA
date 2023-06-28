@@ -11,6 +11,9 @@ public class array {
         for(int ele: num){
             System.out.println(ele);
         }
+
+        int x= num.length;
+        System.out.println(x);
         
     }
     
