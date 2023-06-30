@@ -1,7 +1,21 @@
-class Human{
+class Human2{
     private int age = 0;
     private String name = "Null";
+
+    public Human2(){
+        System.out.println("in constructor");
+    }
+
+    
    
+
+    public Human2(int a, String n) {
+        age = a;
+        name  = n;
+    }
+
+
+
 
     public void setAge(int age) {
         this.age = age;
@@ -18,6 +32,7 @@ class Human{
     }
 
     public String getName() {
+        System.out.println(name);
         return name;
     }
 
@@ -26,14 +41,14 @@ class Human{
     }
 }
 
-public class encap {
+public class constructors {
 
     public static void main (String args[]){
 
-        Human obj = new Human();
+        Human2 obj = new Human2();
 
-        obj.setAge(20);
-        obj.setName("Harsh");
+        //obj.setAge(20);
+        //obj.setName("Harsh");
 
         obj.getData();
         obj.getAge();
