@@ -3,14 +3,38 @@ class Human{
     private String name = "Null";
 
 
-    public void setAge(int a){
-        age = a;
+    
 
+    public void setAge(int age) {
+        this.age = age;
     }
-    public void setName(String a){
-        name = a;
 
+
+
+
+    public void setName(String name) {
+        this.name = name;
     }
+
+    
+
+
+
+
+    public int getAge() {
+        System.out.println(age);
+        return age;
+    }
+
+
+
+
+    public String getName() {
+        return name;
+    }
+
+
+
 
     public void getData(){
         System.out.println("Name : "+ name + " Age : "+ age);
@@ -27,6 +51,9 @@ public class encap {
         obj.setName("Harsh");
 
         obj.getData();
+        obj.getAge();
+        obj.getName();
+
 
 
     }
