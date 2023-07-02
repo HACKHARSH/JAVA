@@ -55,7 +55,7 @@ public class inherit {
         res= obj.add();
         System.out.println(res);
 
-        res= obj.sub();
+        res= obj.sub();   
         System.out.println(res);
 
         res= obj.mul();
