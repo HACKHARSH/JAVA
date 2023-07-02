@@ -1,4 +1,4 @@
-
+@FunctionalInterface
 interface Y{
     void data();
 }
@@ -48,7 +48,11 @@ class A extends B{
 public class interfaceMe {
     public static void main(String args[]){
 
-        X obj = new A();
+        X obj = new A(){
+            public void data(){
+                System.out.println("in data anm");
+            }
+        };
 
         obj.config();
         obj.show();
