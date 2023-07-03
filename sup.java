@@ -1,14 +1,14 @@
 
-class A{
-    public A(){
+class Ab{
+    public Ab(){
         System.out.println("in A");
     }
 
 
 }
 
-class B extends A{
-    public B(){
+class Bb extends Ab{
+    public Bb(){
         System.out.println("in B");
     }
 
@@ -21,7 +21,7 @@ class B extends A{
 public class sup {
     public static void main(String args[]){
 
-        B obj = new B();
+        Bb obj = new Bb();
         obj.show();
 
 
