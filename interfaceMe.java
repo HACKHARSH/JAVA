@@ -41,6 +41,9 @@ class A extends B{
         System.out.println("in A constructors");
     }
 
+    public void start() {
+    }
+
 }
 
 
