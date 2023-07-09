@@ -56,7 +56,9 @@ public class strtoint2 {
         }
         System.out.println(res);
 
-        long z =2131;
+        //long z =2131;
+
+        // added setup
         
         
         
