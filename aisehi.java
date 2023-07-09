@@ -4,13 +4,18 @@ public class aisehi {
 
     public static void main(String args[]){
 
-        String a = "abg  jg  jgj  ";
-        String b = "ab";
+        String s = "  28  ";
+        //String b = "ab";
         //System.out.println(a.length());
         //System.out.println(a.charAt(0));
 
-        char[] ch = a.toCharArray();
-        char[] res = new char[ch.length];
+        char[] ch = s.toCharArray();
+        //char[] res = new char[ch.length];
+        String a = s.trim();
+        int res = Integer.parseInt(a);
+        System.out.println(res);
+
+
         
 
 
@@ -24,7 +29,7 @@ public class aisehi {
         }
 
         
-        System.out.println(Arrays.toString(ch));
+        //System.out.println(Arrays.toString(ch));
 
         
 
