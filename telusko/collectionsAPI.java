@@ -30,7 +30,7 @@ public class collectionsAPI {
 
         System.out.println(nums.get(2));
         System.out.println(nums.indexOf(8));
-        System.out.println(nums.toArray());
+        System.out.println(nums.size());
 
         
         
