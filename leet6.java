@@ -20,8 +20,6 @@ public class leet6 {
             
         }
 
-
-
         int min = 100, max =0;
 
         for(int i=0;i<=arr.length -1;i++){
@@ -40,13 +38,6 @@ public class leet6 {
 
 
 
-
-
-
-
-        
-
-        
         
     }
 }
