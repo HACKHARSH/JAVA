@@ -10,6 +10,8 @@ public class CB2 {
         int res = val+ val2;
         System.out.println(res);
 
+        System.out.println("sout is working");
+
 
 
         // things are on inteleJ now
