@@ -11,6 +11,8 @@ public class CB2 {
         System.out.println(res);
         boolean result = val > val2;
         System.out.println(result);
+
+        // things are on inteleJ now
     }
     
 }
