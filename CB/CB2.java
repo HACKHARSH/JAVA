@@ -15,9 +15,3 @@ public class CB2 {
     
 }
  
-=======
-        System.out.println("Hello");
-    }
-    
-}
->>>>>>> 60eaeb6d9f6048ba3e8ae8a12b222b0f5648dddc
