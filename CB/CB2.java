@@ -9,8 +9,8 @@ public class CB2 {
         int val2 = 2;
         int res = val+ val2;
         System.out.println(res);
-        boolean result = val > val2;
-        System.out.println(result);
+
+
 
         // things are on inteleJ now
     }
