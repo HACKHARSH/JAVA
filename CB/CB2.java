@@ -2,7 +2,7 @@ package CB;
 
 public class CB2 {
     public static void main(String[] args) {
-<<<<<<< HEAD
+
         System.out.println("hello");
         System.out.println(2+3);
         int val =  3;
