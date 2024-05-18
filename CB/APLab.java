@@ -6,7 +6,7 @@ public class APLab {
     {
         
         int A[] = { 1,2,3,4,5,6 };
-        int sum = 9;
+        int sum = 91;
         int arr_size = A.length;
         int chk = 0;
  
@@ -17,6 +17,7 @@ public class APLab {
  
                 
                 for (int k = j + 1; k < arr_size; k++) {
+                    
                     if (A[i] + A[j] + A[k] == sum) {
                         System.out.println(A[i] + " , " + A[j] + " , " + A[k]);
                         chk=1;
